@@ -74,3 +74,14 @@ Entregáveis:
  capacidade_ocupacao: "1"
 }
 ```
+---
+## Exemplo de coleção da reserva:
+```json
+{
+ hospede_id: "72000201",
+ quarto_id: "744",
+ check_in: ISODate(2026-06-11),
+ check_out: ISODate(2026-07-20),
+ valor_total: 340.00
+}
+```
