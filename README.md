@@ -21,24 +21,24 @@ O sistema do hotel deve contemplar, no mínimo, elementos como:
 
 O que deve ser feito:
 
-    identificar os núcleos principais de informação
-    definir coleções
-    pensar em documentos embutidos e referências
-    decidir quais dados fazem sentido agrupar
-    desenhar a estrutura inicial do banco não relacional
+  - identificar os núcleos principais de informação
+  - definir coleções
+  - pensar em documentos embutidos e referências
+  - decidir quais dados fazem sentido agrupar
+  - desenhar a estrutura inicial do banco não relacional
 
 Questões importantes
 
-    uma reserva deve guardar dados do hóspede embutidos ou referenciados?
-    avaliações ficam dentro do documento do quarto ou em coleção própria?
-    serviços consumidos ficam dentro da hospedagem?
-    como representar histórico sem perder flexibilidade?
+- uma reserva deve guardar dados do hóspede embutidos ou referenciados?
+- avaliações ficam dentro do documento do quarto ou em coleção própria?
+- serviços consumidos ficam dentro da hospedagem?
+- como representar histórico sem perder flexibilidade?
 
 Entregáveis:
 
-    estrutura do banco não relacional
-    descrição das coleções e documentos
-    descrição da proposta de modelagem
-    justificativa das escolhas
-    esquema inicial das coleções
-    exemplo de documentos JSON
+  - estrutura do banco não relacional
+  - descrição das coleções e documentos
+  - descrição da proposta de modelagem
+  - justificativa das escolhas
+  - esquema inicial das coleções
+  - exemplo de documentos JSON
