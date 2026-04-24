@@ -2,12 +2,6 @@
 
 Parte 1: Origem do Sistema
 ---
-Em algum ponto entre a tecnologia, a organização e o caos elegante de um sistema mal planejado, existe o Hotel Nebula.
-
-À primeira vista, ele parece apenas um hotel moderno: quartos confortáveis, reservas acontecendo a todo instante, hóspedes chegando de diferentes lugares, profissionais cuidando da operação, serviços extras sendo solicitados e avaliações aparecendo a cada nova estadia. Mas, por trás da recepção iluminada e das portas automáticas, existe um universo inteiro de dados tentando se organizar.
-
-O problema é que esse universo ainda está disperso. O hotel tem informações sobre seus hóspedes, quartos, reservas, hospedagens, pagamentos, profissionais e avaliações, mas tudo isso está em sistemas diferentes, planilhas soltas ou até mesmo em papéis amassados. A equipe de gestão sabe que precisa colocar ordem nesse caos para melhorar a experiência dos clientes e otimizar a operação, mas não sabe por onde começar.
-
 ## Regras gerais do projeto
 
 O sistema do hotel deve contemplar, no mínimo, elementos como:
@@ -83,5 +77,36 @@ Entregáveis:
  check_in: ISODate(2026-06-11),
  check_out: ISODate(2026-07-20),
  valor_total: 340.00
+}
+```
+---
+## Exemplo de coleção da hospedagem:
+```json
+{
+ reserva_id: "001",
+ servicos: [
+   {nome: "Café da manhã", valor: 25.00},
+   {nome: "wifi", valor: 10.00}
+ ],
+data_entrada: ISODate(2026-06-11),
+data_saida: ISODate(2026-07-21)
+}
+```
+---
+## Exemplo de coleção de pagamento
+```json
+{
+  reserva_id: "001",
+  forma_pagamento: "Cartão de crédito",
+  valor: 2.500,
+  data_pagamento: ISODate(2026-06-11),
+  status: "APROVADO"
+}
+```
+---
+## Exemplo de coleção de profissionais/funcionários
+```json
+{
+
 }
 ```
