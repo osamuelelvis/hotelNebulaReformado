@@ -99,16 +99,16 @@ data_saida: ISODate(2026-07-21)
 ```
 ## Descrição da proposta de modelagem
 
-Coleção de hóspedes: A coleção de hóspedes guarda informações básicas do hóspede, como o nome, data de nascimento, RG, CPF, telefone e email para contato. Também guarda informações sobre o número do calçado e tamanho da roupa, estas sendo usadas para fornecer vestimentas como roupão e pantufas.
+**Coleção de hóspedes**: A coleção de hóspedes guarda informações básicas do hóspede, como o nome, data de nascimento, RG, CPF, telefone e email para contato. Também guarda informações sobre o número do calçado e tamanho da roupa, estas sendo usadas para fornecer vestimentas como roupão e pantufas.
 
-Coleção de quartos: A coleção de quartos armazena a descrição do quarto, como a categoria do quarto, o tipo de cama e a quantidade de ocupação. Possui id próprio, que está relacionado ao número do quarto.
+**Coleção de quartos**: A coleção de quartos armazena a descrição do quarto, como a categoria do quarto, o tipo de cama e a quantidade de ocupação. Possui id próprio, que está relacionado ao número do quarto.
 
-Coleção de reservas: A coleção de reservas referencia o id do hóspede e o id do quarto. Possui datas de entrada e saída prevista do hóspede e o valor total previsto da estadia. 
+**Coleção de reservas**: A coleção de reservas referencia o id do hóspede e o id do quarto. Possui datas de entrada e saída prevista do hóspede e o valor total previsto da estadia. 
 
-Coleção de hospedagem: Possui id próprio e referencia o id da reserva. Armazena dados de serviços fornecidos durante a hospedagem do usuário, como serviço de café da manhã e wifi. Armazena também a data de entrada e a data de saída do hóspede.
+**Coleção de hospedagem**: Possui id próprio e referencia o id da reserva. Armazena dados de serviços fornecidos durante a hospedagem do usuário, como serviço de café da manhã e wifi. Armazena também a data de entrada e a data de saída do hóspede.
 
-Coleção de pagamentos: Também referencia o id da reserva e armazena dados sobre a forma de pagamento e o valor pago, a data de pagamento e o status (aprovado, pendente ou negado)
+**Coleção de pagamentos**: Também referencia o id da reserva e armazena dados sobre a forma de pagamento e o valor pago, a data de pagamento e o status (aprovado, pendente ou negado)
 
-Coleção de funcionários/profissionais: Assim como a coleção de hóspedes, armazena informações como o nome, data de nascimento, RG, CPF, número da carteira de trabalho e informações de contato (email e telefone). Também guarda a função que aquele funcionário/profissional possui dentro do hotel (recepcionista, gerente, zelador, etc.)
+**Coleção de funcionários/profissionais**: Assim como a coleção de hóspedes, armazena informações como o nome, data de nascimento, RG, CPF, número da carteira de trabalho e informações de contato (email e telefone). Também guarda a função que aquele funcionário/profissional possui dentro do hotel (recepcionista, gerente, zelador, etc.)
 
-Coleção de avaliações: Referencia o id da hospedagem e possui classificações para infraestrutra, acessibilidade, localização, gastronomia, atendimento, podendo classificar de 1 (ruim) à 5 (excelente). Possui um campo comentário geral para o usuário explicar melhor suas avaliações e trazer feedbacks para melhoria futura do hotel.
+**Coleção de avaliações**: Referencia o id da hospedagem e possui classificações para infraestrutra, acessibilidade, localização, gastronomia, atendimento, podendo classificar de 1 (ruim) à 5 (excelente). Possui um campo comentário geral para o usuário explicar melhor suas avaliações e trazer feedbacks para melhoria futura do hotel.
