@@ -17,7 +17,7 @@ R: Como cada hospedagem é um documento separado referenciando o hóspede, basta
 ## Exemplo de coleção de hóspede:
 ```json
 {
- _id: "72000201"
+ _id: "72000201",
  nome: "Samuel Elvis",
  data_nascimento: ISODate(2000-10-27),
  contato: {telefone: "11987654321", email: "samuelelvis@gmail.com"},
@@ -79,8 +79,8 @@ data_saida: ISODate(2026-07-21)
   _id: "HC987",
   nome: "Herick Carvalho",
   data_nascimento: ISODate(2007-03-03),
-  documentos: {rg: "52.432.195-70", cpf: "498.887.556-22", carteira_trabalho: "498.887.556-22"}
-  contato: {telefone: "11987552244", email: "herickcarvalho@gmail.com"}
+  documentos: {rg: "52.432.195-70", cpf: "498.887.556-22", carteira_trabalho: "498.887.556-22"},
+  contato: {telefone: "11987552244", email: "herickcarvalho@gmail.com"},
   funcao: "Recepcionista"
 }
 ```
