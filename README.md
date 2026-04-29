@@ -113,8 +113,7 @@ data_saida: ISODate(2026-07-21)
 - **Coleção de avaliações**: Referencia o id da hospedagem e possui classificações para infraestrutra, acessibilidade, localização, gastronomia, atendimento, podendo classificar de 1 (ruim) à 5 (excelente). Possui um campo comentário geral para o usuário explicar melhor suas avaliações e trazer feedbacks para melhoria futura do hotel.
 ---
 ## Justificativa da proposta de modelagem
----
+
 Para melhor organização, algumas coleções como hóspede, quartos, reserva e hospedagens, foram referenciadas em outras coleções. Caso não tivessem sido referenciadas, os dados precisariam ser atualizados um por um, sendo mais trabalhoso e custoso do que usar coleções referenciadas. Dados como serviços consumidos são embutidos dentro da hospedagem porque cada dado é exclusivo. Além de serem exclusivos, são quase sempre consultados junto com a hospedagem, não isoladamente.
 ---
-
 ## Parte 2: Montagem do Núcleo
