@@ -1,7 +1,6 @@
 # hotelNebulaReformado
 
-Parte 1: Origem do Sistema
----
+## Parte 1: Origem do Sistema
 - uma reserva deve guardar dados do hóspede embutidos ou referenciados?
 R: Guardar dados referenciados, pois seria necessário atualizar dados de diferentes coleções. O hóspede pode ter várias reservas, e se os dados fossem embutidos, uma atualização exigiria modificar todos esses documentos.
 
@@ -119,4 +118,3 @@ Para melhor organização, algumas coleções como hóspede, quartos, reserva e 
 ---
 
 ## Parte 2: Montagem do Núcleo
----
