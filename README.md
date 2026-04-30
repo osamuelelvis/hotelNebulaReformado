@@ -114,6 +114,6 @@ data_saida: ISODate(2026-07-21)
 ---
 ## Justificativa da proposta de modelagem
 
-Para melhor organização, algumas coleções como hóspede, quartos, reserva e hospedagens, foram referenciadas em outras coleções. Caso não tivessem sido referenciadas, os dados precisariam ser atualizados um por um, sendo mais trabalhoso e custoso do que usar coleções referenciadas. Dados como serviços consumidos são embutidos dentro da hospedagem porque cada dado é exclusivo. Além de serem exclusivos, são quase sempre consultados junto com a hospedagem, não isoladamente.
+- Para melhor organização, algumas coleções como hóspede, quartos, reserva e hospedagens, foram referenciadas em outras coleções. Caso não tivessem sido referenciadas, os dados precisariam ser atualizados um por um, sendo mais trabalhoso e custoso do que usar coleções referenciadas. Dados como serviços consumidos são embutidos dentro da hospedagem porque cada dado é exclusivo. Além de serem exclusivos, são quase sempre consultados junto com a hospedagem, não isoladamente.
 ---
 ## Parte 2: Montagem do Núcleo
